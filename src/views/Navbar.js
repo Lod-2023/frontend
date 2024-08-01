@@ -35,7 +35,7 @@ function Navbar() {
                             {token !== null &&
                                 <>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="/dashboard">Dashboard</a>
+                                        <a className="nav-link" href="/dashboard">Set Disponibles</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" onClick={logoutUser} style={{ cursor: "pointer" }}>Cerrar sesión</a>
